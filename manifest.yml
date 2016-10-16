@@ -1,0 +1,10 @@
+applications:
+- path: VaadinStarterApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ui-framework-vaadin
+  host: ui-framework-vaadin
+  disk_quota: 1024M
+  services:
+  - ui-framework-vaadin-elephantsql
